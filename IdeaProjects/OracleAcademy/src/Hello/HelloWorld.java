@@ -11,18 +11,21 @@ public class HelloWorld {
         System.out.println("Hello World");
         System.out.println(sqr(10));
         System.out.println(distance(50, 65, 200, 3));
-        System.out.println(sqrt(2,10,4));
-        // System.out.println("x1 = "+x1, "x2 = " + x2);
+        sqrt(2,10,4);
         System.out.println(fourthTask(-5));
         System.out.println(fifthTask(2, 10, 5));
-        //System.out.println(sixthTask(15));
+        sixthTask(15);
         System.out.println((a > 2) && (b <= 3));
         System.out.println((b > a) && (b < c));
-        //System.out.println(ninthTask(5, 2, 2, 2));
+        System.out.println(ninthTask(5, 2, 2, 2));
         System.out.println(tenthTask());
         System.out.println(eleventhTask());
-
-
+        twelfthTask(2,5,4);
+        thirteenthTask(5,9);
+        fourteenthTask(4, 8);
+        fifteenthTask(5);
+        System.out.println(sixteenth(13, 4));
+        seventeenthTask(10);
     }
 
 
@@ -35,14 +38,13 @@ public class HelloWorld {
         return Math.abs(s - t * (x + y));
     }
 
-    public static double sqrt(double a, double b, double c) {
+    public static void sqrt(float a, float b, float c) {
     double d = Math.sqrt( b * b - 4 * a * c);
-        double x1 =  (-b + d) / (2 * a);
-        return x1;
-        //double x2 = (-b - d) / (2 * a);
-        //return x2;
+        float x1 = (float) (-b + d) / (2 * a);
 
+        float x2 = (float)(-b - d) / (2 * a);
 
+        System.out.println("x1= " + x1 +", " + "x2 = " + x2);
     }
 
     public static int fourthTask(int a) {
@@ -70,20 +72,27 @@ public class HelloWorld {
 
     }
 
-    /*public static int  sixthTask(){
-        int number = 45
-        switch (number)
-        case number == 0:{
-            System.out.println("Нулевое число");
-            break;
+    public static void  sixthTask(int number){
+
+          if (number == 0) {
+              System.out.println("Нулевое число");
+
+          } else if (number>0 && number%2 == 0) {
+
+               System.out.println("Положительное четное число");
+
+          } else if (number>0 && number%2 != 0) {
+
+              System.out.println("Положительное нечетное число");
+
+          } else if (number<0 && number%2 == 0) {
+
+              System.out.println("Отрицательное четное число");
+          }else
+                System.out.println("Отрицательно нечетное число");
         }
-        case
-                System.out.println("Положительное четное число")
-        System.out.println("Положительное нечетное число")
-        System.out.println("Отрицательное четное число")
-        System.out.println("Отрицательно нечетное число")
-    }*/
-    /*public static int ninthTask(int a, int b, int c, int d) {
+
+    public static int ninthTask(int a, int b, int c, int d) {
         int number;
         if (a == b && b == c) {
             number = 3;
@@ -95,12 +104,14 @@ public class HelloWorld {
         } else if (a == c && c == d) {
             number = 1;
 
-        } else
+        } else {
             number = 0;
+        } return number;
 
-        System.out.println("Порядковый номер числа, отличного от остальных: " + number);
 
-    }*/
+
+    }
+
     public static int tenthTask() {
         int k = 10;
         switch (k) {
@@ -152,8 +163,62 @@ public class HelloWorld {
         }
         return m;
     }
+public static void twelfthTask(int n, int a, int b) {
+        switch (n) {
+        case 1:
+            System.out.println("a+b = " + (a+b));
+            break;
+        case 2:
+            System.out.println("a-b = " + (a-b));
+            break;
+        case 3:
+            System.out.println("a * b = " + (a*b));
+            break;
+        case 4:
+            System.out.println("a / b = " + (a/b));
+            break;
+    }
+
+}
+    public static void thirteenthTask(int a, int b) {
+        int counter=0;
+        for(int i=a; i<=b; i++) {
+
+            System.out.println(i);
+            counter++;
+        }
+        System.out.println(counter);
 
 
+    }
+    public static void fourteenthTask(int a, int b) {
+        int sum = 0;
+        for (int i = a; i <= b; i++) {
+            sum += i;
+        }
+        System.out.println(sum);
+    }
+    public static void fifteenthTask(int n){
+        int p=1;
+        for (int i = 1; i<=n; i++) {
+            p *= i;
+        }
+        System.out.println(p);
+    }
+    public static int sixteenth(int a, int b) {
+        int c=0;
+        for (int i = b; i <= a; i +=b) {
+         c =a-i;
+        } return c;
+
+    }
+    public static void seventeenthTask(int n) {
+        int k=1;
+        while (3 * k < n) {
+            k +=1;
+        }
+        System.out.println(k);
+    }
 }
 
 
