@@ -1,3 +1,5 @@
+package ua.org.oa.violetta.practice1;
+
 public class simpleDataTypesLoopsUtils {
     public static byte b;
     public static short s;

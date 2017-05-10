@@ -1,3 +1,7 @@
+package ua.org.oa.violetta.practice1;
+
+import ua.org.oa.violetta.practice1.simpleDataTypesLoopsUtils;
+
 public class simpleDataTypesLoopsUtilsTest {
     public static void main(String[] args) {
         simpleDataTypesLoopsUtils.printSimpleTypes();

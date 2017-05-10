@@ -1,4 +1,4 @@
-package ua.org.oa.violetta;
+package ua.org.oa.violetta.HomeWork1;
 
 public class App {
 

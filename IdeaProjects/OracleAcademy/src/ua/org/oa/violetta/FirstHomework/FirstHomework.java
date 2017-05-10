@@ -1,14 +1,12 @@
-package Hello;
+package ua.org.oa.violetta.FirstHomework;
 
-import static java.lang.Math.*;
-
-public class HelloWorld {
+public class FirstHomework {
     public static void main(String[] args) {
         int a = 10;
         int b = 2;
         int c = 25;
 
-        System.out.println("Hello World");
+        System.out.println("ua.org.oa.org.violetta.FirstHomework.FirstHomework World");
         System.out.println(sqr(10));
         System.out.println(distance(50, 65, 200, 3));
         sqrt(2,10,4);

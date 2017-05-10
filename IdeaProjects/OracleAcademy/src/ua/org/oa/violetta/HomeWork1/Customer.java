@@ -1,6 +1,4 @@
-package ua.org.oa.violetta;
-
-import java.util.Date;
+package ua.org.oa.violetta.HomeWork1;
 
 public class Customer {
     public String name;
@@ -8,7 +6,6 @@ public class Customer {
     public String email;
     public String password;
     public double order;
-
 
 
 
@@ -28,4 +25,5 @@ public class Customer {
         order = productPrice * productAmount;
         return order;
     }
+
 }
