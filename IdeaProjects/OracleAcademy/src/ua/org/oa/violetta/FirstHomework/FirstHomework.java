@@ -6,25 +6,44 @@ public class FirstHomework {
         int b = 2;
         int c = 25;
 
-        System.out.println("ua.org.oa.org.violetta.FirstHomework.FirstHomework World");
+        System.out.println("HELLO World");
+        System.out.println("---the first task---");
         System.out.println(sqr(10));
+        System.out.println("---the second task---");
         System.out.println(distance(50, 65, 200, 3));
+        System.out.println("---the third task---");
         sqrt(2,10,4);
+        System.out.println("---the fourth task---");
         System.out.println(fourthTask(-5));
+        System.out.println("---the fifth task---");
         System.out.println(fifthTask(2, 10, 5));
+        System.out.println("---the sixth task---");
         sixthTask(15);
-        System.out.println((a > 2) && (b <= 3));
-        System.out.println((b > a) && (b < c));
+        System.out.println("---the seventh task---");
+        seventhTask(5,2);
+        System.out.println("---the eighth task---");
+        eighthTask(1,2,3);
+        System.out.println("---the ninth task---");
         System.out.println(ninthTask(5, 2, 2, 2));
-        System.out.println(tenthTask());
-        System.out.println(eleventhTask());
+        System.out.println("---the tenth task---");
+        System.out.println(tenthTask(10));
+        System.out.println("---the eleventh task---");
+        System.out.println(eleventhTask(5));
+        System.out.println("---the twelfth task---");
         twelfthTask(2,5,4);
+        System.out.println("---the thirteenth task---");
         thirteenthTask(5,9);
+        System.out.println("---the fourteenth task---");
         fourteenthTask(4, 8);
+        System.out.println("---the fifteenth task---");
         fifteenthTask(5);
-        System.out.println(sixteenth(13, 4));
+        System.out.println("---the sixteenth task---");
+        System.out.println(sixteenthTask(13, 4));
+        System.out.println("---the seventeenth task---");
         seventeenthTask(10);
+        System.out.println("---the eighteenth task---");
         eighteenthTask(355);
+        System.out.println("---the nineteenth task---");
         nineteenthTask(5,10);
     }
 
@@ -92,6 +111,22 @@ public class FirstHomework {
                 System.out.println("Отрицательно нечетное число");
         }
 
+    public static void seventhTask (int A, int B){
+        if (A > 2 && B <= 3) {
+            System.out.println("Справедливы неравенства A > 2 и B ≤ 3");
+        }else{
+            System.out.println("A should be more than 2, and B should be less or equal to 3");
+        }
+    }
+    public static void eighthTask (int A, int B, int C){
+        if (A < B && B < C) {
+            System.out.println("Справедливо двойное неравенство A < B < C");
+        }else{
+            System.out.println("A should be less than B, and B should be less than C");
+        }
+    }
+
+
     public static int ninthTask(int a, int b, int c, int d) {
         int number;
         if (a == b && b == c) {
@@ -112,8 +147,7 @@ public class FirstHomework {
 
     }
 
-    public static int tenthTask() {
-        int k = 10;
+    public static int tenthTask(int k) {
         switch (k) {
             case 1:
                 System.out.println("плохо");
@@ -137,8 +171,8 @@ public class FirstHomework {
         return k;
     }
 
-    public static int eleventhTask() {
-        int m = 5;
+    public static int eleventhTask(int m) {
+
         switch (m) {
             case 1:
             case 2:
@@ -205,7 +239,7 @@ public static void twelfthTask(int n, int a, int b) {
         }
         System.out.println(p);
     }
-    public static int sixteenth(int a, int b) {
+    public static int sixteenthTask(int a, int b) {
         int c=0;
         for (int i = b; i <= a; i +=b) {
          c =a-i;
