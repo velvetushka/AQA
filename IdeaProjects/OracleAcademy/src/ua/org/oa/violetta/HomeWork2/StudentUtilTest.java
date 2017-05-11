@@ -31,40 +31,6 @@ public class StudentUtilTest {
         System.out.println("Average rating of " + group.getGroupName() + " group is " + group.calculateAverageRatingOfGroup());
         group.printStudentsAccordingToAverageRating();
 
-
-
-
-
-
-
-
-
-
-
-//        System.out.println(Student.createStudentConsole());
-//
-//        Student student1 = new Student("Ira", "A", 25, 5.0);
-//        System.out.println(student1);
-//        Student student2 = new Student("Evgen");
-//        System.out.println(student2);
-//        Student student3 = new Student("Pavel");
-//        System.out.println(student3);
-//        Student student4 = new Student("Vasya", "A", 4.3);
-//        System.out.println(student4);
-//        Student student5 = new Student("Petya", "B", 4.0);
-//        System.out.println(student5);
-//        Student student6 = new Student("Valya", "B", 40, 3.7);
-//        System.out.println(student6);
-
-
     }
-// create object Student from console
-
-
-
-
-
-
-
 
 }

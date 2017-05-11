@@ -24,6 +24,8 @@ public class FirstHomework {
         fifteenthTask(5);
         System.out.println(sixteenth(13, 4));
         seventeenthTask(10);
+        eighteenthTask(355);
+        nineteenthTask(5,10);
     }
 
 
@@ -217,6 +219,23 @@ public static void twelfthTask(int n, int a, int b) {
         }
         System.out.println(k);
     }
+    public static void eighteenthTask(int n) {
+
+        while (n > 0) {
+
+            System.out.println(n%10);
+            n = n / 10;
+        }
+    }
+    public static void nineteenthTask(int A, int B) {
+        int n=0;
+        for(int i = A; i <= B; i++){
+            for (int j = 0; j <= n; j++){
+                System.out.println(i);
+            } n +=1;
+        }
+    }
+
 }
 
 

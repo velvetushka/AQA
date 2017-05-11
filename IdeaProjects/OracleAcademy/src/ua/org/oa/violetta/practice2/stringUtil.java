@@ -68,10 +68,10 @@ public static void createStringOfThreeChars(String s) {
         char symbol2 = 's';
         int count = 0;
         String str = s.toLowerCase();
-                for (int i = 0; i < s.length()-1; i++) {
-            if (s.charAt(i+1) == ' ') {
-                if (s.charAt(i) == symbol1 || s.charAt(i) == symbol2 ||
-                        s.charAt((s.length()-1))== symbol1 || s.charAt((s.length()-1)) == symbol2) {
+                for (int i = 0; i < str.length()-1; i++) {
+            if (str.charAt(i+1) == ' ') {
+                if (str.charAt(i) == symbol1 || str.charAt(i) == symbol2 ||
+                        str.charAt((str.length()-1))== symbol1 || str.charAt((str.length()-1)) == symbol2) {
 
                     count++;
                 }

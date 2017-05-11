@@ -16,7 +16,7 @@ public class StringUtilTest {
         stringUtil.transferThelastTwoSymbols("abcdef");
         stringUtil.duplicateEveryChars("candy");
         System.out.println(stringUtil.deleteTwoCharsNear("th*is is sum*mer"));
-        System.out.println(stringUtil.calculateWordsWithAAndS("is the sous dadas"));
+        System.out.println(stringUtil.calculateWordsWithAAndS("it is adidas boot"));
         System.out.println(stringUtil.deleteAllDuplicates("summer, this is summer ola plomber", "er"));
     }
 }
